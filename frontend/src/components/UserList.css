@@ -1,0 +1,23 @@
+/* frontend/src/components/UserList.css */
+.user-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-list-item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .user-list-item {
+      display: flex;
+      align-items: center;
+    }
+  
+    .user-list-item img {
+      margin-right: 20px;
+    }
+  }
+  
